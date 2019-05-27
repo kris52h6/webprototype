@@ -1,0 +1,62 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top h2 {
+    margin: 0;
+    font-size: 5rem;
+
+
+}
+
+.top {
+    background-color: #EA5045;
+    color: white;
+    width: 100vw;
+    height: 50vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.knap1 {
+    background-color: #EA5045;
+    border: solid;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.knap2 {
+    background-color: #FFFFFF;
+    border: solid;
+    border-color: #EA5045;
+    border-radius: 20px;
+    color: #EA5045;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
