@@ -106,6 +106,8 @@ input {
 
 /** FORSIDE **/
 
+/** NAV **/
+
 nav {
     background-color: #EA5045;
     width: 100%;
@@ -118,3 +120,40 @@ nav img {
     padding-top: 1vw;
     padding-left: 1vw;
 }
+
+/** BOKSE **/
+
+/** FØRSTE COL **/
+
+.col1 h2 {
+    color: #EA5045;
+    font-size: 1rem;
+}
+
+.col1 img {
+    height: 12vw;
+
+}
+
+
+.col1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+
+
+.col1 .boks {
+    height: 30vw;
+    width: 30vw;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/** ANDEN COL **/
