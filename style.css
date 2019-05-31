@@ -47,8 +47,7 @@ body {
 }
 
 input {
-
-
+    border: none;
     color: #EA5045;
     border-radius: 50px;
     padding: 15px 32px;
@@ -102,6 +101,12 @@ input {
 
 }
 
+.bottom2 img {
+    top: 117.5vw;
+    left: 17vw;
+    position: absolute;
+}
+
 
 
 /** FORSIDE **/
@@ -125,14 +130,87 @@ nav .right {
     display: flex;
     justify-content: flex-end;
     margin-top: -25px;
-    margin-right: 50px;
+    margin-right: 30px;
+    padding: 5px;
 }
 
 nav .right img {
     width: 10vw;
     height: 5vw;
 
+
 }
+
+
+/** BURGERMENU **/
+
+
+
+nav .menu {
+    width: 100%;
+    height: 800px;
+    background-color: #3F3140;
+    position: absolute;
+    transition: .3s all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav a {
+    color: #EA5045;
+    margin: 30px;
+
+}
+
+.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+
+
+
+.pos_m {
+    top: 4vw;
+    right: 10vw;
+}
+
+.bar1,
+.bar2 {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #F2F2F2;
+    margin: 0.2rem;
+    padding: 1px;
+
+}
+
+.bar3 {
+    width: 1.2rem;
+    height: 0.2rem;
+    background-color: #F2F2F2;
+    margin: 0.2rem;
+    padding: 1px;
+
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
 
 
 
@@ -305,4 +383,261 @@ nav .right img {
 
 #forside img:hover {
     transform: scale(1.3);
+}
+
+
+/** SKEMA **/
+
+
+.skema {
+    flex-direction: column;
+    display: flex;
+
+
+
+
+
+}
+
+.skema .top {
+    height: 15vw;
+    width: 100vw;
+    background-color: #DEDCDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+
+
+}
+
+.skema .mid {
+    height: 15vw;
+    width: 100vw;
+    background-color: #3F3140;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.img1 {
+    top: 33vw;
+    left: 40vw;
+    position: absolute;
+}
+
+.img2 {
+    top: 33vw;
+    right: 40vw;
+    position: absolute;
+}
+
+.mid p {
+    color: white;
+    font-size: 0.8rem;
+    margin: 2px;
+}
+
+.mid h1 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 2px;
+}
+
+
+/** MODULER **/
+
+
+/** FØRSTE MODUL */
+
+.modul {
+    height: 15vw;
+    width: 100vw;
+    background-color: #FFFFFF;
+    border-bottom: 1px #E2E8ED solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modul p {
+    margin: 5px;
+    padding-top: 4px;
+}
+
+.modul2 {
+    position: absolute;
+    border-bottom: 1px #E2E8ED solid;
+}
+
+.info {
+    height: 30vw;
+    width: 80vw;
+    background-color: #F2F1F0;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 2;
+}
+
+.img3 {
+    top: 5vw;
+    right: 5vw;
+    position: absolute;
+}
+
+.img4 {
+    top: 10vw;
+    right: 5vw;
+    position: absolute;
+}
+
+.split {
+
+    width: 100vw;
+    height: 5vw;
+    background-color: #FAF7F7;
+    position: absolute;
+
+}
+
+/** ANDET MODUL */
+
+.split1 {
+    top: 72vw;
+}
+
+
+
+.modul3 {
+    top: 76vw;
+    position: absolute;
+}
+
+.modul4 {
+    top: 91vw;
+    position: absolute;
+}
+
+
+.info2 {
+    top: 76vw;
+    height: 30vw;
+    width: 80vw;
+    background-color: #F2F1F0;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+
+
+
+/** TREJDE MODUL **/
+
+.split2 {
+    top: 106vw;
+}
+
+.modul5 {
+    top: 111vw;
+    position: absolute;
+
+}
+
+.modul6 {
+    top: 126vw;
+    position: absolute;
+
+}
+
+
+.info3 {
+    top: 111vw;
+    height: 30vw;
+    width: 80vw;
+    background-color: #F2F1F0;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 2;
+}
+
+.testtest p {
+    padding-left: 20px;
+}
+
+.testtest h4 {
+    padding-left: 20px;
+}
+
+
+
+/** MATERIALER **/
+
+.materialer {
+    display: flex;
+    flex-direction: column;
+}
+
+.materialer .mat {
+    height: 20vw;
+    width: 95vw;
+    background-color: #DEDCDB;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.materialer .mat h4,
+p {
+    margin: 20px;
+
+}
+
+
+
+.mat1 img {
+    top: 25vw;
+    position: absolute;
+    left: 45vw;
+}
+
+.mat2 img {
+    top: 50vw;
+    position: absolute;
+    left: 25vw;
+}
+
+.mat3 img {
+    top: 100vw;
+    left: -50px;
+    position: absolute;
+}
+
+/** FOOTER **/
+
+
+footer {
+    width: 100%;
+    height: 15vw;
+    background-color: #3F3140;
+    color: white;
+    position: absolute;
+    top: 142vw;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer img {
+    position: absolute;
+    left: 40vw;
+    top: 4vw;
 }

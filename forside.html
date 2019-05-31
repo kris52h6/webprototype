@@ -10,26 +10,45 @@
 
 <body>
     <header>
-        <nav>
-            <div class="left">
-                <a href="index.html"><img src="images/forside/kea%20logo.svg"></a>
-            </div>
-            <div class="right">
-                <img src="images/forside/profil.svg">
-            </div>
 
-        </nav>
     </header>
+    <nav>
+        <div class="left">
+            <a href="index.html"><img src="images/forside/kea%20logo.svg"></a>
+        </div>
+        <div class="right">
+            <img src="images/forside/profil.svg">
+
+
+        </div>
+
+        <div id="menuknap"></div>
+        <div id="menu" class="hidden">
+            <a href="Aktuelt.html">Aktuelt</a>
+            <a href="skema.html">Skema</a>
+            <a href="Afleveringer.html">Afleveringer</a>
+            <a href="materialer.html">Materialer</a>
+            <a href="Chat.html">Chat</a>
+            <a href="Indstillinger.html">Indstillinger</a>
+
+
+
+        </div>
+
+
+
+
+    </nav>
     <section id="forside">
         <div class="col1">
             <div class="boks1 boks">
-                <img src="images/forside/Folder.svg" alt="folder">
+                <a href="materialer.html"><img src="images/forside/Folder.svg" alt="Materialer"></a>
                 <h2>Materialer</h2>
 
 
             </div>
             <div class="boks2 boks">
-                <img src="images/forside/skema.svg" alt="notifikationer">
+                <a href="skema.html"><img src="images/forside/skema.svg" alt="Afleveringer"></a>
                 <h2>Skema</h2>
             </div>
             <div class="boks3 boks">
@@ -74,7 +93,6 @@
 
                 </div>
                 <div class="boks2 boks">
-                    <a href="index.html"><img src="images/forside/afleveringer.svg" alt="Afleveringer"></a>
                     <h2>Afleveringer</h2>
                 </div>
             </div>
@@ -114,7 +132,5 @@
 
 
 
-    <script src="js.script"></script>
-</body>
-
-</html>
+    <script src="script.js"></script>
+</body></html>
